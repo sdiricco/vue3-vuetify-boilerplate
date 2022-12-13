@@ -1,7 +1,5 @@
 <template>
-  <div class="home">
-    <h1>Home</h1>
-  </div>
+  <div :class="['text-h3', 'pa-16', 'centered']">Home Page</div>
 </template>
 
 <script setup lang="ts">
@@ -9,13 +7,11 @@
 </script>
 
 <style scoped>
-.home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: start;
-  width: 100%;
+.centered{
   height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-
 </style>
