@@ -1,17 +1,9 @@
 <template>
-  <div :class="['text-h3', 'pa-16', 'centered']">About Page</div>
+  <h3>About Page</h3>
 </template>
 
 <script setup lang="ts">
-
 </script>
 
 <style scoped>
-.centered{
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
 </style>
